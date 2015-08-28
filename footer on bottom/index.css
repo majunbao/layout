@@ -1,0 +1,23 @@
+/*footer on bottom*/
+/*第一步*/
+html{height: 100%;}
+body{margin:0;height: 100%;}
+
+
+article{
+  
+  /*footer on bottom*/
+  /*第二步*/
+  position: relative;
+  z-index: -1;
+  min-height: 100%;
+  box-sizing:border-box;
+  margin-top: -60px;padding-top: 60px; /*数值为头部的高度，包括padding和margin*/
+  margin-bottom: -80px;padding-bottom: 80px; /*数值为页脚的高度，包括padding和margin*/
+}
+header{
+  height: 60px;background-color: #4faeff;
+}
+footer{
+  height: 80px;background-color: #508A3D;
+}
