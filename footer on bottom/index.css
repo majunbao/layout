@@ -9,7 +9,6 @@ article{
   /*footer on bottom*/
   /*第二步*/
   position: relative;
-  z-index: -1;
   min-height: 100%;
   box-sizing:border-box;
   margin-top: -60px;padding-top: 60px; /*数值为头部的高度，包括padding和margin*/
