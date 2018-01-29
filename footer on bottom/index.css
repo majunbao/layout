@@ -9,6 +9,7 @@ article{
   /*footer on bottom*/
   /*第二步*/
   position: relative;
+  z-index:1;
   min-height: 100%;
   box-sizing:border-box;
   margin-top: -60px;padding-top: 60px; /*数值为头部的高度，包括padding和margin*/
@@ -16,7 +17,11 @@ article{
 }
 header{
   height: 60px;background-color: #4faeff;
+  position: relative;
+  z-index:2;
 }
 footer{
   height: 80px;background-color: #508A3D;
+  position: relative;
+  z-index:2;
 }
